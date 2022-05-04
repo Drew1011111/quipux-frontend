@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<!-- <body class="app sidebar-mini"> -->
+<body class="app sidebar-mini sidenav-toggled">
+  
+  <!-- Navbar-->
+  <div class="navbar-white d-flex flex-column flex-md-row align-items-center p-2 px-md-4 bg-white border-bottom box-shadow">
+    <!-- <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5> -->
+    <nav class="mr-md-auto nav nav-masthead justify-content-center">
+      <ol class="breadcrumb">
+        <a class="breadcrumb-item nav-link" href="index.html"><i class="fa fa-home fa-lg"></i></a>
+        <a class="breadcrumb-item nav-link" href="#">EMPRESAS</a>
+        <a class="breadcrumb-item nav-link active" href="empresas.html">NOMBRE EMPRESA</a>
+      </ol>
+    </nav>
+    <a class="btn btn-outline-primary btn-navbar-mobile" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"><i class="app-menu__icon fa fa-bars"></i></a>
+    <div class="dropdown">
+      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i> <span style="font-size: 0.70rem;">Usuario Apellido</span>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> <span style="font-size: 0.70rem;">Salir</span></a>
+      </div>
+    </div>
+    <!-- <a class="btn btn-outline-primary" href="#">Sign up</a> -->
+  </div>
+
+  <!-- Sidebar menu-->
+  <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+  <aside class="app-sidebar">
+    <!-- <div class="app-sidebar__user">
+      <div>
+        <p class="app-sidebar__user-name"></p>
+        <p class="app-sidebar__user-designation"></p>
+      </div>
+    </div> -->
+    <ul class="app-menu">
+      <li class="mb-3">
+          <a class="app-menu__item" href="#" data-toggle="sidebar" aria-label="Hide Sidebar">
+              <i class="app-menu__icon fa fa-bars"></i>
+              <img class="app-sidebar__logo ml-5" style="max-width: 100px;" src="images/Logo-quipux.png" alt="Logo Image">
+          </a>
+      </li>
+      <li class="treeview mb-3"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-calendar-check-o"></i><span class="app-menu__label"><span class="app-menu-label-title">EMPRESAS</span></span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a class="treeview-item" href="empresas.html">—— &emsp; Empresas</a></li>
+        </ul>
+      </li>
+      <li class="treeview mb-3"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text-o"></i><span class="app-menu__label"><span class="app-menu-label-title">ARTÍCULOS</span></span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a class="treeview-item" href="articulo.html">—— &emsp; Artículo</a></li>
+        </ul>
+      </li>
+      <li class="treeview mb-3"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-user"></i><span class="app-menu__label"><span class="app-menu-label-title">COLABORADORES</span></span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Other</a></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+
+  <main class="app-content">
+
+    <div class="row">
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h6><small><strong>INFORMACIÓN DE LA EMPRESA</strong></small></h6>
+                </div>
+                <div class="text-center">
+                    <div>
+                        <strong>Nombre</strong>
+                        <p><small>Quipux S.A.S</small></p>
+                    </div>
+                    <div>
+                        <strong>Fecha de creación</strong>
+                        <p><small>1995/05/06</small></p>
+                    </div>
+                    <div>
+                        <strong>Dirección</strong>
+                        <p><small>Carrera 43A No. 3 Sur-130<br>
+                        Ed. Milla de Oro<br>
+                        Distrito de negocios Torre 1<br>
+                        Piso 12<br><br>
+                        Medellín - Colombia</small></p>
+                    </div>
+                    <div>
+                        <strong>Número de teléfonos</strong>
+                        <p><small>Fijo<br>
+                            +57 (4) 313-70-00 <br>
+                            Fax <br>
+                            +57 (4) 313-44-77</small></p>
+                    </div>
+                    <div>
+                        <strong>Sitio Web</strong>
+                        <p><small><a href="https://www.quipux.com/site" target="_blank">www.quipux.com/site</a></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h6><small><strong>INFORMACIÓN DEL CONTACTO</strong></small></h6>
+
+                    <div class="row mt-5">
+                        <div class="span6 col-md-6">
+                            <div class="mycontent-left text-center">
+                                <div>
+                                    <strong>Dirección</strong>
+                                    <p><small>Carrera 52 # 91-66 <br>
+                                        Medellín Colombia
+                                    </small></p>
+                                </div>
+                                <div>
+                                    <strong>Correo electrónico</strong>
+                                    <p><small>usuarioapellido@hotmail.com</small></p>
+                                </div>
+                                <div>
+                                    <strong>Sitio Web</strong>
+                                    <p><small>www.usuarioapellido.com</small></p>
+                                </div>
+                                <div>
+                                    <strong>Red social</strong>
+                                    <p><small>www.instagram.com/usuarioapellido <br>
+                                        www.linkeind.comm/usuarioapellido</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span6 col-md-6">
+                            <div class="mycontent-right text-center">
+                                <div>
+                                    <strong>Dirección de correspondencia de correo</strong>
+                                    <p><small>Carrera 52 # 91-66 <br>
+                                        Envigado Colombia
+                                    </small></p>
+                                </div>
+                                <div>
+                                    <strong>Número de teléfonos</strong>
+                                    <p><small>Fijo <br>
+                                        +57 (4) 313-70-00 <br>
+                                        Celular <br>
+                                         (312) 313-44-77
+                                        </small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
